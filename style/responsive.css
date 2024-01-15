@@ -65,4 +65,17 @@
         color: #262629;
         margin: 20px 0px;
     }
+    .choose-section {
+        width : 90%;
+    }
+    .choose-content {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .box {
+        width: 90%;
+    }
+    .choose-box {
+        flex-direction: column;
+    }
 }

@@ -146,6 +146,7 @@ body {
     color: #ffff;
     font-size: 2rem;
     font-weight: 800;
+    text-shadow: 3px 5px 8px black;
     position: absolute;
     top: 50%;
     left: 30%;
@@ -183,4 +184,44 @@ body {
 #img-7 {
     grid-column:6/ span 7 ;
     grid-row: 3/span 1;
+}
+
+/* ****** ****** ******* ****** ****** ****** Choose Section Design ****** ****** ******* ****** ****** ******  */
+.choose-section {
+    width : 80%;
+    margin: 50px auto;
+}
+.choose-content {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+.choose-title {
+    color : #131318;
+    font-size: 2rem;
+}
+.choose-description {
+    color : #292323;
+    margin: 20px 0px;
+}
+.choose-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.box {
+    background-color: #FBB5630D;
+    width: 45%;
+    margin: 0px auto;
+    padding: 30px 30px;
+    border-radius: 15px;
+    border:1px solid #424247;
+    box-shadow: 1px 1px 7px black;
+}
+#different-box {
+   background-color:  #29CEF60D;
+}
+.box h2 {
+    margin: 10px 0px;
 }
