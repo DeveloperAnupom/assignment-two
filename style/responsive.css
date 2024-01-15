@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 600px) {
+    .nav-container {
+        width: 90%;
+    }
+    .toggle-bar i {
+        display: block;
+    }
+    .nav-menu > ul > li {   
+        display: block;
+    }
+    .nav-menu > ul > li > a {   
+        font-size: 1.5rem;
+    }
+    .nav-menu {
+        text-align: center;
+        display: none;
+    }   
+    .banner-section {
+        height: 65vh;
+        width:90%;
+    }
+    .banner-container {
+        width : 90%;
+    }
+    .banner-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .input-box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    
+}
