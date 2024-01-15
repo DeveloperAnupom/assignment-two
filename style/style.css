@@ -65,10 +65,10 @@ body {
 }
 .banner-description {
     font-size :1rem;
-    color:#ffff;
+    color:#ebe7e7;
 }
 .input-box {
-    width : 90%;
+    width : 100%;
     margin: 40px auto;
     background-color: rgba(255, 255, 255, 0.30);
     padding: 20px 10px;
@@ -89,4 +89,98 @@ body {
     border: 0px;
     padding: 10px 20px;
     border-radius: 5px;
+}
+/* ****** ****** ******* ****** ****** ****** popular Section Design ****** ****** ******* ****** ****** ******  */
+.popular-section {
+    width : 80%;
+    margin: 80px auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.popular-content {
+    width : 50%;
+}
+.popular-image {
+    width : 50%;
+}
+.popular-title {
+    font-size: 2rem;
+    color : #131318;
+}
+.popular-description {
+    color: #424247;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+/* ****** ****** ******* ****** ****** ****** Destination Section Design ****** ****** ******* ****** ****** ******  */
+.destination-section {
+    width : 80%;
+    margin: 100px auto;
+}
+.destination-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.destination-title {
+    font-size: 2.5rem;
+    color: #131318;
+}
+.destination-description {
+    font-size: 1rem;
+    color: #262629;
+    margin: 20px 0px;
+}
+.destination-images {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.img-row {
+    position: relative;
+}
+.img-text {
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.img-row img {
+    width : 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#img-1 {
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+#img-2 {
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+#img-3 {
+    grid-column:1 /span 3 ;
+    grid-row: 2/span 1;
+}
+#img-4 {
+    grid-column:4 /span 6 ;
+    grid-row: 2/span 1;
+}
+#img-5 {
+    grid-column:10/ span 3 ;
+    grid-row: 2/span 1;
+}
+#img-6 {
+    grid-column:1 / span 5 ;
+    grid-row: 3/span 1;
+}
+#img-7 {
+    grid-column:6/ span 7 ;
+    grid-row: 3/span 1;
 }

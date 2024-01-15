@@ -18,7 +18,7 @@
     }   
     .banner-section {
         height: 65vh;
-        width:90%;
+        width: 90%;
     }
     .banner-container {
         width : 90%;
@@ -33,6 +33,36 @@
         gap: 30px;
         text-align: center;
     }
-
-    
+    .popular-section {
+        width : 90%;
+        margin: 80px auto;
+        flex-direction: column;
+    }
+    .popular-content {
+        width : 90%;
+    }
+    .popular-image {
+        width : 100%;
+    }
+    .popular-image img{
+        width : 100%;
+    }
+    .destination-section {
+        width : 90%;
+        margin: 100px auto;
+    }
+    .destination-images {
+        display: flex;
+        flex-direction: column;
+        gap : 5px;
+    }
+    .destination-title {
+        font-size: 2.2rem;
+        color: #131318;
+    }
+    .destination-description {
+        font-size: 1rem;
+        color: #262629;
+        margin: 20px 0px;
+    }
 }
