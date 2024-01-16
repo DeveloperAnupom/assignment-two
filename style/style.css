@@ -424,3 +424,33 @@ form input {
     right : 10%;
     transform: rotate(-30deg);
 }
+
+
+/* ****** ****** ******* ****** ****** ****** Footer Section Design ****** ****** ******* ****** ****** ******  */
+footer {
+    height: 70vh;
+    background-color: rgba(19, 19, 24, 0.05);
+    padding-top: 30px;
+    margin-top: 80px;
+}
+.footer-container {
+    width : 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+.logo {
+    width : 40%;
+    margin: 30px auto;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.social {
+    margin : 20px auto;
+}
+.social i {
+    font-size: 2rem;
+    padding: 20px;
+}
