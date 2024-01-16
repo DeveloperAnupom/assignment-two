@@ -365,3 +365,62 @@ body {
 .sponsor-images img {
     width: 10%;
 }
+
+/* ****** ****** ******* ****** ****** ****** Form Section Design ****** ****** ******* ****** ****** ******  */
+.form-section {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.form-container {
+    width : 45%;
+    border: 1px solid orangered;
+    padding: 0px 30px;
+    border-radius: 10px;
+}
+.form-image {
+    width : 55%;
+    position: relative;
+}
+.form-image img {
+    width : 100%;
+}
+.form-title {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.form-container p {
+    margin: 20px auto;
+}
+hr { 
+    width: 90%;
+    margin-bottom: 20px;
+}
+form input {
+    width: 80%;
+    border : none;
+    font-size: 1rem;
+    text-align: center;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(19, 19, 24, 0.05);;
+}
+.submit {
+    color: #f9f9ff;
+    background-color: #FF5400;
+}
+.form-img-text {
+    width: 40%;
+    color: #f9f9ff;
+    padding: 10px 20px ;
+    text-align: center;
+    background-color: #FF5400;
+    border-radius: 10px;
+    position: absolute;
+    top : 55%;
+    right : 10%;
+    transform: rotate(-30deg);
+}

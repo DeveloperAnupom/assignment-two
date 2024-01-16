@@ -152,4 +152,21 @@
     .sponsor-images img {
         width: 30%;
     }
+    .form-section {
+        width: 90%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .form-container {
+        width : 90%;
+    }
+    .form-image {
+        width : 90%;
+    }
+    .form-img-text {
+        font-size: 0.5rem;
+        width: 40%;
+        top : 55%;
+        right : 10%;
+    }
 }
