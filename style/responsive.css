@@ -78,4 +78,43 @@
     .choose-box {
         flex-direction: column;
     }
+    .discount-section {
+        width : 90%;
+    }
+    .discount-content {
+        width : 90%;
+    }
+    .discount-title {
+        font-size: 1.5rem;
+    }
+    .discount-box img {
+        height: 50vh;
+        object-fit: cover;
+    }
+    .discount-box-content {
+        width: 70%;
+        padding : 20px 10px;
+        top : 20%;
+        left: 16%;
+    }
+    #different-discount-box {
+        top : 20%;
+        left: 15%;
+    }
+    .i-text {
+        font-size: 6px;
+    }
+    .discount-box-content p {
+        font-size: 12px;
+    }
+    .discount-box-content h1 {
+        font-size: 17px;
+    }
+    .discount-box-content h3 {
+        font-size: 14px;
+    }
+    .button-div {
+        width: 50%;
+        margin: 50px auto;
+    }
 }
