@@ -296,3 +296,72 @@ body {
     width: 20%;
     margin: 50px auto;
 }
+
+/* ****** ****** ******* ****** ****** ****** Video Section Design ****** ****** ******* ****** ****** ******  */
+.video-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 80%;;
+    margin: 50px auto; 
+}
+.video-content {
+    width: 50%;
+}
+.video {
+    width: 50%;
+    position: relative;
+}
+.video-text{
+    color: #f9f9ff;
+    background-color: #2626292d ;
+    padding: 5px ;
+    border-radius: 20px;
+    position: absolute;
+    top : 50%;
+    left: 10%;
+}
+.video video{
+    width: 100%;
+}
+
+/* ****** ****** ******* ****** ****** ****** Bonus Section Design ****** ****** ******* ****** ****** ******  */
+.bonus-section {
+    width : 80%;
+    margin : 50px auto;
+}
+.award-container {
+    margin: 80px auto;
+}
+.award-content {
+    width: 55%;
+    margin: 0px auto;
+    text-align: center;
+}
+.award-title {
+    font-size: 2rem;
+}
+.award-description {
+    font-size: 1rem;
+    padding: 20px 0px;
+}
+.award-images {
+    display: flex;
+    justify-content: space-around;
+}
+.award-box {
+    padding: 20px 30px;
+    text-align: center;
+}
+.sponsor-container {
+    margin: 80px auto;
+}
+.sponsor-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+.sponsor-images img {
+    width: 10%;
+}

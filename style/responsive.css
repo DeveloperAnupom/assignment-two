@@ -117,4 +117,39 @@
         width: 50%;
         margin: 50px auto;
     }
+    .video-section {
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;;
+    }
+    .video-content {
+        width: 90%;
+        text-align: center;
+    }
+    .video {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .video-text{
+        font-size: 10px;
+        top : 35%;
+        left: 10%;
+    }
+    .bonus-section {
+        width : 90%;
+    }
+    .award-content {
+        width: 90%;
+    }
+    .award-images {
+        flex-direction: column;
+    }
+    .sponsor-images {
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px auto;
+    }
+    .sponsor-images img {
+        width: 30%;
+    }
 }
